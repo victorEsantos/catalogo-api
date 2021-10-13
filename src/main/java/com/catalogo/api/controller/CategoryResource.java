@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 @RestController
-@RequestMapping(value = "/categorie")
+@RequestMapping(value = "/categories")
 @Api(value = "Categoria Controller")
 @CrossOrigin(origins = "*")
 public class CategoryResource implements CategoryControllerOpenAPI {
